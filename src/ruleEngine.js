@@ -2,7 +2,7 @@ const http = require('http');
 const mongoose = require('mongoose');
 const ruleController = require('./ruleController');
 
-const MONGODB_URI = 'mongodb://localhost:27017';
+const MONGODB_URI = 'mongodb_url';
 
 mongoose.connect(MONGODB_URI)
     .then(() => console.log("Connected to MongoDB"))
